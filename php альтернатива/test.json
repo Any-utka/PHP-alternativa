@@ -1,0 +1,34 @@
+{
+    "questions": [
+        {
+            "question": "Какой язык программирования самый крутой?",
+            "answers": ["PHP", "JavaScript", "Python"],
+            "correct": [0],
+            "type": "single"
+        },
+        {
+            "question": "Выберите фреймворки для PHP",
+            "answers": ["Laravel", "Django", "Symfony"],
+            "correct": [0, 2],
+            "type": "multiple"
+        },
+        {
+            "question": "Какой из языков является интерпретируемым?",
+            "answers": ["PHP", "Java", "Python", "C++"],
+            "correct": [0, 2],
+            "type": "multiple"
+        },
+        {
+            "question": "Какие фреймворки существуют для Python?",
+            "answers": ["Django", "Laravel", "Flask", "Symfony"],
+            "correct": [0, 2],
+            "type": "multiple"
+        },
+        {
+            "question": "Для чего нужна функция arsort()?",
+            "answers": ["Сортирует массив с использованием пользовательской функции", "Сортирует элементы по убыванию с сохранением ключей", "Сортирует элементы массива по возрастанию"],
+            "correct": [1],
+            "type": "single"
+        }
+    ]
+}

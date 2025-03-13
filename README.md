@@ -46,8 +46,49 @@
 5. Создаем файл *results_index.php*, который выведет информацию с результатами, сколько верныйх отвоетов, имя и процент.
 6. Создаем файл *finish_data.php*, в котором прописываем логику вывода 10 результатов на экран.
 7. Создаем файл *finish_index.php*, он выводит информацию с 10 результатами в таблице.
-#### Примеры тестов
-
+#### Примеры тестов и результаты работы
+1. Тесты хранятся в файле *test.json*
+   ```json
+   {
+         "questions": [
+             {
+                 "question": "Какой язык программирования самый крутой?",
+                 "answers": ["PHP", "JavaScript", "Python"],
+                 "correct": [0],
+                 "type": "single"
+             },
+             {
+                 "question": "Выберите фреймворки для PHP",
+                 "answers": ["Laravel", "Django", "Symfony"],
+                 "correct": [0, 2],
+                 "type": "multiple"
+             },
+             {
+                 "question": "Какой из языков является интерпретируемым?",
+                 "answers": ["PHP", "Java", "Python", "C++"],
+                 "correct": [0, 2],
+                 "type": "multiple"
+             },
+             {
+                 "question": "Какие фреймворки существуют для Python?",
+                 "answers": ["Django", "Laravel", "Flask", "Symfony"],
+                 "correct": [0, 2],
+                 "type": "multiple"
+             },
+             {
+                 "question": "Для чего нужна функция arsort()?",
+                 "answers": ["Сортирует массив с использованием пользовательской функции", "Сортирует элементы по убыванию с сохранением ключей", "Сортирует элементы массива по возрастанию"],
+                 "correct": [1],
+                 "type": "single"
+             }
+         ]
+   }
+    ```
+   ![Img-1](https://imgur.com/e45ZOpG.png)  
+   ![Img-2](https://imgur.com/dDgkiIj.png)  
+   ![Img-3](https://imgur.com/mjgh5b5.png)
+   
+   
   
 
   

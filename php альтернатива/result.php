@@ -71,11 +71,9 @@ if (!is_array($results)) {
 // Добавляем новый результат
 $results[] = ['name' => htmlspecialchars($username, ENT_QUOTES, 'UTF-8'), 'score' => $scorePercent];
 
-// Сортируем по убыванию процентов
-usort($results, fn($a, $b) => $b['score'] <=> $a['score']);
 
 // Ограничиваем до 10 результатов
-$results = array_slice($results, 0, 10);
+$results = array_slice($results, -10);
 
 // Сохраняем результаты
 file_put_contents($resultsFile, json_encode($results, JSON_PRETTY_PRINT));

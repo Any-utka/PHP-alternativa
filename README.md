@@ -88,6 +88,9 @@
    ![Img-2](https://imgur.com/dDgkiIj.png)  
    ![Img-3](https://imgur.com/mjgh5b5.png)
    
+   <img src="https://imgur.com/e45ZOpG.png" weight=80px heigth=100px>  
+   <img src="https://imgur.com/dDgkiIj.png" weight=80px heigth=100px>
+   <img src="https://imgur.com/mjgh5b5.png" weight=80px heigth=100px>
    
   
 
